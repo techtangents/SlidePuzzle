@@ -22,6 +22,6 @@ function testPieceDivsAdded() {
 function testPieceBackgrounds() {
     var o = init();
     o.pieces.each(function() {
-        assertEquals("myimg.jpg", $(this).css("background-image"));
+        assertEquals("url(myimg.jpg)", $(this).css("background-image"));
     });
 }

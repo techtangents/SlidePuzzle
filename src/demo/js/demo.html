@@ -1,13 +1,15 @@
 <html>
 <head>
-    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="slidepuzzle.js"></script>
+    <script type="text/javascript" src="../../main/js/underscore.js"></script>
+    <script type="text/javascript" src="../../main/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../../main/js/jquery-ui-1.8.2.custom.min.js"></script>
+    <script type="text/javascript" src="../../main/js/slidepuzzle.js"></script>
 
     <script type="text/javascript">
 
         $(document).ready(function() {
             $("#puzzle").slidePuzzle({
-                image : "eric_the_cat.jpg"
+                image : "cat.jpg"
             });
         });        
     </script>
@@ -15,7 +17,7 @@
 </head>
 <body>
 
-<div id="puzzle" style="background-position-x:30%;"></div>
+<div id="puzzle" style="width:425px;height:360px;border:1px solid black;"></div>
 
 </body>
 </html>
