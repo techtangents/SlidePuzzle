@@ -4,15 +4,18 @@
     <script type="text/javascript" src="slidepuzzle.js"></script>
 
     <script type="text/javascript">
-        $("#puzzle").slidePuzzle({
-            image : "eric_the_cat.jpg"
-        });
+
+        $(document).ready(function() {
+            $("#puzzle").slidePuzzle({
+                image : "eric_the_cat.jpg"
+            });
+        });        
     </script>
 
 </head>
 <body>
 
-<div id="puzzle"></div>
+<div id="puzzle" style="background-position-x:30%;"></div>
 
 </body>
 </html>

@@ -4,6 +4,7 @@ TechTangents.SlidePuzzle = {};
 (function(P, $) {
 
     // #canhas include/PieceMaker.js
+    // #canhas include/BackgroundPositionCalculator.js
 
     P.create = function(element, image) {
         return {
