@@ -14,3 +14,8 @@ function testInit() {
     var pieces = element.find("div.puzzlePiece");
     assertEquals(9, pieces.length);
 }
+
+function testBackgrounds() {
+    var p = P.PieceMaker.make(0, "myimg");
+    assertEquals(p.attr("background-image"), "myimg");
+}
