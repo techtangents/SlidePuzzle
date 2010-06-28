@@ -3,10 +3,12 @@ require("../include/include.js");
 function testBackgrounds() {
 
     function check(pos, backgroundPos) {
-        var p = P.PieceMaker.make("myimg.jpg", pos);
+        var p = P.PieceMaker.make("myimg.jpg", pos, 600, 900);
         assertEquals("myimg.jpg", p.css("background-image"));
         assertEquals("no-repeat", p.css("background-repeat"));
         assertEquals(backgroundPos, p.css("background-position"));
+        assertEquals(200, p.width());
+        assertEquals(300, p.height());
     }
 
     check(0, "0% 0%");
