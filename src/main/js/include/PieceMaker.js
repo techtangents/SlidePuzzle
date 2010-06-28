@@ -1,5 +1,5 @@
 P.PieceMaker = {
-    make : function(pos, image) {
+    make : function(image, pos) {
         return $("<div />")
             .addClass("puzzlePiece")
             .attr("background-image", image);

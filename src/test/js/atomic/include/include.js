@@ -16,3 +16,5 @@ includes.forEach(doRequire);
 
 require("customAsserts.js");
 
+assertEquals(undefined, this.P);
+var P = TechTangents.SlidePuzzle; //shortcut for brevity

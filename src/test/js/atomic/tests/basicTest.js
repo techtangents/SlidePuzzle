@@ -1,21 +1,27 @@
 require("../include/include.js");
 
-var P = TechTangents.SlidePuzzle;
-
 function testBasics() {
     assertTypeOf("object", P);
     assertTypeOf("function", P.create);
 }
 
-function testInit() {
+function init() {
     var element = $("<div />");
-    var p = P.create(element);
+    var p = P.create(element, "myimg.jpg");
     p.init();
-    var pieces = element.find("div.puzzlePiece");
-    assertEquals(9, pieces.length);
+    return {
+        pieces :element.find("div.puzzlePiece")
+    }
 }
 
-function testBackgrounds() {
-    var p = P.PieceMaker.make(0, "myimg");
-    assertEquals(p.attr("background-image"), "myimg");
+function testPieceDivsAdded() {
+    var o = init();
+    assertEquals(9, o.pieces.length);
+}
+
+function testPieceBackgrounds() {
+    var o = init();
+    o.pieces.each(function() {
+        assertEquals("myimg.jpg", $(this).attr("background-image"));
+    });
 }
