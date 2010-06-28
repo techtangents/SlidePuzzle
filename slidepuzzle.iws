@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/demo/js/experiment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/js/demo.html" afterPath="$PROJECT_DIR$/src/demo/js/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
     </list>
     <ignored path="slidepuzzle.iws" />
@@ -108,7 +101,7 @@
       <file leaf-file-name="PieceMakerTest.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="259" selection-end="259" vertical-scroll-proportion="0.2556818">
+            <state line="17" column="26" selection-start="510" selection-end="510" vertical-scroll-proportion="0.53125">
               <folding />
             </state>
           </provider>
@@ -556,7 +549,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="background-repeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="background positions" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -573,6 +566,7 @@
     <MESSAGE value="stuff" />
     <MESSAGE value="backgrounds" />
     <MESSAGE value="background-repeat" />
+    <MESSAGE value="background positions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -671,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="259" selection-end="259" vertical-scroll-proportion="0.2556818">
+        <state line="17" column="26" selection-start="510" selection-end="510" vertical-scroll-proportion="0.53125">
           <folding />
         </state>
       </provider>
