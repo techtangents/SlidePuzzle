@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
     </list>
     <ignored path="slidepuzzle.iws" />
@@ -66,7 +65,7 @@
       <file leaf-file-name="slidepuzzle.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="139" selection-end="139" vertical-scroll-proportion="0.28301886">
+            <state line="12" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.4851752">
               <folding />
             </state>
           </provider>
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/jQueryFunctionals.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       </list>
     </option>
@@ -280,6 +280,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="139" selection-end="139" vertical-scroll-proportion="0.28301886">
+        <state line="12" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.4851752">
           <folding />
         </state>
       </provider>
