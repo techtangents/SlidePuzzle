@@ -20,5 +20,12 @@ P.PieceMaker = {
 
     blank : function(totalWidth, totalHeight) {
         return P.PieceMaker.basic(totalWidth, totalHeight);
+    },
+
+    array : function(totalWidth, totalHeight, image, rows, cols) {
+        var numElements = rows * cols;
+        return _.map(_.range(numElements), function(x) {
+            return P.PieceMaker.make(image, x, totalWidth, totalHeight);
+        });
     }
 };
