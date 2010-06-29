@@ -8,6 +8,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/BackgroundPositionCalculator.js
     // #canhas include/jQueryIntegration.js
     // #canhas include/InitialPositionChooser.js
+    // #canhas include/Randomizer.js
 
     P.create = function(element, image) {
         return {

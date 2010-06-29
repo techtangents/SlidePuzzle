@@ -13,6 +13,7 @@ function test() {
 
     // size assumed to be 8
     function predictableRandomizer(size) {
+        assertEquals(9, size);
         return order;
     }
 
