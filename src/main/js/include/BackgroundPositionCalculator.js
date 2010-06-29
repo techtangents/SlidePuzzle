@@ -8,10 +8,9 @@
     }
 
     P.BackgroundPositionCalculator = {
-        calculate : function(pos) {
-            var row = Math.floor(pos / 3);
-            var col = pos % 3;
-            return position(col) + " " + position(row);
+        calculate : function(index) {
+            var c = P.Coordinate.fromIndex(index);
+            return position(c.col) + " " + position(c.row);
         }
     }
 })();
