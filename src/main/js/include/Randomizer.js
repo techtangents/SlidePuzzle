@@ -18,8 +18,7 @@ P.Randomizer = {
             return pick(picked, remaining);
         }
 
-        var max = size + 1;
-        var remaining = _.range(max);
+        var remaining = _.range(size);
         return pick([], remaining);
     }
 };

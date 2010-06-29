@@ -11,7 +11,8 @@ P.PieceShuffler = {
     },
 
     choose : function(squares, blank) {
-        var torso = P.Arrays.torso(squares)
-        return torso.concat([blank]);
+        var torso = P.Arrays.torso(squares);
+        torso.push(blank);
+        return torso;
     }
 };
