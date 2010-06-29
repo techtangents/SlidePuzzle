@@ -11,6 +11,8 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/PieceShuffler.js
     // #canhas include/Randomizer.js
     // #canhas include/PositionCalculator.js
+    // #canhas include/EventWirer.js
+    // #canhas include/Dom.js
 
     P.create = function(element, image) {
         return {
@@ -41,34 +43,7 @@ TechTangents.SlidePuzzle = {};
                     pieceContainer.append(x);
                 });
 
-
-                function getPos(element) {
-                    return {
-                        left : element.css("left"),
-                        top : element.css("top")
-                   };
-                }
-
-                var animationEnabled = true;
-                _(picturePieces).each(function(x) {
-                    x.click(function() {
-                        if (!animationEnabled) return;
-
-                        animationEnabled = false;
-                        var blankPos = getPos(blankPiece);
-                        var piecePos = getPos(x);
-                        blankPiece.detach();
-
-                        x.animate(blankPos, {
-                            duration : 'fast',
-                            complete : function() {
-                                blankPiece.css(piecePos);
-                                pieceContainer.append(blankPiece);
-                                animationEnabled = true;
-                            }
-                        });
-                    });
-                });
+                P.EventWirer.wire(pieceContainer, picturePieces, blankPiece);
             }
         }
     };
