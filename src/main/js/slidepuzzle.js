@@ -16,6 +16,11 @@ TechTangents.SlidePuzzle = {};
                 var elements = _.map(_.range(9), function(x) {
                     return P.PieceMaker.make(image, x, element.width(), element.height());
                 });
+
+//                var blankElement = P.PieceMaker.blank(element.width(), element.height());
+
+//                P.InitialPositionChooser.chooser(elements, )
+
                 _(elements).each(function(x){ element.append(x); });
             }
         }

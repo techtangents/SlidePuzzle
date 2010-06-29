@@ -23,3 +23,9 @@ function testBackgrounds() {
     check(7, "50% 100%");
     check(8, "100% 100%");
 }
+
+function testBlank() {
+    var p = P.PieceMaker.blank(600, 900);
+    assertEquals(200, p.width());
+    assertEquals(300, p.height());
+}
