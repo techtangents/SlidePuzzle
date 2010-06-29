@@ -1,4 +1,4 @@
-$.widget("ui.slidePuzzle", {
+P.widgetDef = {
     options : {
         image : ""
     },
@@ -9,4 +9,5 @@ $.widget("ui.slidePuzzle", {
         var instance = P.create(element, image);
         instance.init();
     }
-});
+};
+$.widget("ui.slidePuzzle", P.widgetDef);
