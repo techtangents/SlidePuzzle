@@ -13,6 +13,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/PositionCalculator.js
     // #canhas include/EventWirer.js
     // #canhas include/Dom.js
+    // #canhas include/GridInfoMaker.js
 
     P.create = function(element, image) {
         return {
@@ -22,10 +23,10 @@ TechTangents.SlidePuzzle = {};
 
                 // FIX push the rows/cols throughout the system
                 // FIX pass them in from widget options
-                var rows = 3;
-                var cols = 3;
 
-                var picturePieces = P.PieceMaker.array(totalWidth, totalHeight, image, rows, cols);
+                var gridInfo = P.GridInfoMaker.make(3, 3, element);
+
+                var picturePieces = P.PieceMaker.array(gridInfo, image);
                 var blankPiece = P.PieceMaker.blank(totalWidth, totalHeight);
                 var shuffledPieces = P.PieceShuffler.shuffle(picturePieces, blankPiece, P.Randomizer.array);
 
