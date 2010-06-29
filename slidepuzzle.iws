@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/GridInfoMaker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/PieceInserter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -68,7 +67,16 @@
       <file leaf-file-name="slidepuzzle.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="67" selection-start="914" selection-end="914" vertical-scroll-proportion="0.42857143">
+            <state line="36" column="47" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.6142857">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceInserter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceInserter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="8" selection-start="94" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,15 +104,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="78" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PositionCalculatorTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="66" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PositionerTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceShuffler.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" />
@@ -184,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/GridInfoMaker.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/InitialPositioner.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       </list>
     </option>
@@ -557,7 +556,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring, testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidewaysing." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -589,6 +588,7 @@
     <MESSAGE value="it's working!" />
     <MESSAGE value="testing getPos. Sidewaysing EventWirer" />
     <MESSAGE value="refactoring, testing" />
+    <MESSAGE value="Sidewaysing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -598,13 +598,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceShuffler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="52" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="1" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
@@ -703,9 +696,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceInserter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="8" selection-start="94" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="67" selection-start="914" selection-end="914" vertical-scroll-proportion="0.42857143">
+        <state line="36" column="47" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.6142857">
           <folding />
         </state>
       </provider>

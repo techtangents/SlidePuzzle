@@ -14,6 +14,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/EventWirer.js
     // #canhas include/Dom.js
     // #canhas include/GridInfoMaker.js
+    // #canhas include/PieceInserter.js
 
     P.create = function(element, image) {
         return {
@@ -30,16 +31,12 @@ TechTangents.SlidePuzzle = {};
                 var blankPiece = P.PieceMaker.blank(totalWidth, totalHeight);
                 var shuffledPieces = P.PieceShuffler.shuffle(picturePieces, blankPiece, P.Randomizer.array);
 
-                // FIX move sideways (InitialPositioner)
                 // absolutely positioned within a relative element makes the pieces position absolute,
                 //  relative to the parent
                 var pieceContainer = $("<div />").css("position", "relative");
                 element.append(pieceContainer);
-                _(shuffledPieces).each(function(x, i) {
-                    var pos = P.PositionCalculator.fromIndexCss(totalWidth, totalHeight, i);
-                    x.css(pos);
-                    pieceContainer.append(x);
-                });
+
+                P.PieceInserter.insert(gridInfo, pieceContainer, shuffledPieces);
 
                 P.EventWirer.wire(pieceContainer, picturePieces, blankPiece);
             }
