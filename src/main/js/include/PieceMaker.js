@@ -18,8 +18,8 @@ P.PieceMaker = {
             });
     },
 
-    blank : function(totalWidth, totalHeight) {
-        return P.PieceMaker.basic(totalWidth, totalHeight);
+    blank : function(gridInfo) {
+        return P.PieceMaker.basic(gridInfo.width, gridInfo.height);
     },
 
     array : function(gridInfo, image) {

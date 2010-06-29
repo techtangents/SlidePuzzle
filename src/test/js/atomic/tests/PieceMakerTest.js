@@ -30,6 +30,6 @@ function testBackgrounds() {
 }
 
 function testBlank() {
-    var p = P.PieceMaker.blank(600, 900);
+    var p = P.PieceMaker.blank({width : 600, height : 900});
     checkCommon(p, 200, 300);
 }

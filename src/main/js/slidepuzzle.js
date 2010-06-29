@@ -28,7 +28,7 @@ TechTangents.SlidePuzzle = {};
                 var gridInfo = P.GridInfoMaker.make(3, 3, element);
 
                 var picturePieces = P.PieceMaker.array(gridInfo, image);
-                var blankPiece = P.PieceMaker.blank(totalWidth, totalHeight);
+                var blankPiece = P.PieceMaker.blank(gridInfo);
                 var shuffledPieces = P.PieceShuffler.shuffle(picturePieces, blankPiece, P.Randomizer.array);
 
                 // absolutely positioned within a relative element makes the pieces position absolute,
