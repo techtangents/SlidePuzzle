@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/demo/js/cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/js/demo.html" afterPath="$PROJECT_DIR$/src/demo/js/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/ArraysTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.ipr" afterPath="$PROJECT_DIR$/slidepuzzle.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/Arrays.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/demo/js/eric_the_cat.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" />
     </list>
-    <ignored path="slidepuzzle.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="slidepuzzle.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,33 +68,6 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jQueryIntegration.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieceMaker.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BackgroundPositionCalculator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,19 +77,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicTest.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="basicTest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="525" selection-end="525" vertical-scroll-proportion="0.61647725">
+            <state line="24" column="36" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieceMakerTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
+      <file leaf-file-name="InitialPositionChooserTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="19" column="49" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitialPositionChooser.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,7 +116,7 @@
       <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/js/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="48" selection-start="618" selection-end="618" vertical-scroll-proportion="-8.478261">
+            <state line="19" column="48" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,7 +125,7 @@
       <file leaf-file-name="experiment.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/js/experiment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="341" selection-end="341" vertical-scroll-proportion="-5.2173915">
+            <state line="8" column="25" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,10 +140,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customAsserts.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/include/customAsserts.js">
+      <file leaf-file-name="ArraysTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/ArraysTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+            <state line="4" column="41" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/Arrays.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="1" selection-start="200" selection-end="200" vertical-scroll-proportion="0.25714287">
               <folding />
             </state>
           </provider>
@@ -175,22 +172,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/test.js" />
-        <option value="$PROJECT_DIR$/build/build.js" />
-        <option value="$PROJECT_DIR$/src/test/js/atomic/include/envjsFixes.js" />
-        <option value="$PROJECT_DIR$/src/test/js/atomic/include/customAsserts.js" />
-        <option value="$PROJECT_DIR$/lib/run/underscore.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/js/include/jQueryFunctionals.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/include/include.js" />
         <option value="$PROJECT_DIR$/src/demo/js/experiment.html" />
         <option value="$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js" />
-        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/demo/js/demo.html" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PiecePlacerTest.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/ArrayHelperTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/ArraysTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/Arrays.js" />
       </list>
     </option>
   </component>
@@ -229,8 +226,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
@@ -404,13 +401,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.externalTools" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -524,27 +524,27 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="25" width="1288" height="753" extended-state="6" />
+    <frame x="0" y="25" width="1280" height="750" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6595041" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938676" sideWeight="0.6594684" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -560,7 +560,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="background positions" />
+    <option name="LAST_COMMIT_MESSAGE" value="positioning" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -578,112 +578,108 @@
     <MESSAGE value="backgrounds" />
     <MESSAGE value="background-repeat" />
     <MESSAGE value="background positions" />
+    <MESSAGE value="positioning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/run/env.rhino.1.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1848" column="12" selection-start="51818" selection-end="51818" vertical-scroll-proportion="0.33146068">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/include/envjsFixes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.20215634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/include/customAsserts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="1" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/run/underscore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="4" selection-start="4422" selection-end="4422" vertical-scroll-proportion="0.33707866">
-          <folding />
-        </state>
+        <state line="108" column="4" selection-start="4422" selection-end="4422" vertical-scroll-proportion="0.33707866" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="22" selection-end="22" vertical-scroll-proportion="0.1212938">
-          <folding />
-        </state>
+        <state line="3" column="7" selection-start="22" selection-end="22" vertical-scroll-proportion="0.1212938" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/include/include.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="9" column="24" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/js/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/js/experiment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="341" selection-end="341" vertical-scroll-proportion="-5.2173915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/js/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="618" selection-end="618" vertical-scroll-proportion="-8.478261">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="111" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="8" column="25" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="525" selection-end="525" vertical-scroll-proportion="0.61647725">
+        <state line="24" column="36" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="111" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/include/include.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="49" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/ArraysTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="200" selection-end="200" vertical-scroll-proportion="0.25714287">
           <folding />
         </state>
       </provider>
@@ -694,7 +690,13 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl />
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
           </splitter-proportions>
           <settings />
         </UIState>

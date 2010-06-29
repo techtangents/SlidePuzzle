@@ -3,9 +3,11 @@ TechTangents.SlidePuzzle = {};
 
 (function(P, $) {
 
+    // #canhas include/Arrays.js
     // #canhas include/PieceMaker.js
     // #canhas include/BackgroundPositionCalculator.js
     // #canhas include/jQueryIntegration.js
+    // #canhas include/InitialPositionChooser.js
 
     P.create = function(element, image) {
         return {
