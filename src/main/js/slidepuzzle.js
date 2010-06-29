@@ -35,11 +35,8 @@ TechTangents.SlidePuzzle = {};
                 var pieceContainer = $("<div />").css("position", "relative");
                 element.append(pieceContainer);
                 _(shuffledPieces).each(function(x, i) {
-                    var pos = P.PositionCalculator.fromIndex(totalWidth, totalHeight, i);
-                    x.css({
-                        left : pos.x + "px",
-                        top : pos.y + "px"
-                    });
+                    var pos = P.PositionCalculator.fromIndexCss(totalWidth, totalHeight, i);
+                    x.css(pos);
                     pieceContainer.append(x);
                 });
 

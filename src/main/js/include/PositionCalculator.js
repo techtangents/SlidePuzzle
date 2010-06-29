@@ -11,5 +11,13 @@ P.PositionCalculator = {
             x : coordinate.col * pieceWidth,
             y : coordinate.row * pieceHeight
         };
+    },
+
+    fromIndexCss : function(totalWidth, totalHeight, index) {
+        var c = P.PositionCalculator.fromIndex(totalWidth, totalHeight, index);
+        return {
+            left : c.x + "px",
+            top : c.y + "px"
+        }
     }
 };

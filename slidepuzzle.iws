@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/DomTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/Dom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
     </list>
@@ -66,28 +65,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="slidepuzzle.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/Dom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DomTest.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/DomTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.42857143">
+            <state line="39" column="45" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.78571427">
               <folding />
             </state>
           </provider>
@@ -141,7 +122,16 @@
       <file leaf-file-name="PositionCalculator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/PositionCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="76" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="16" column="77" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionCalculatorTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="59" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,17 +156,17 @@
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PositionerTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Coordinate.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" />
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceShuffler.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
         <option value="$PROJECT_DIR$/dist/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Dom.js" />
-        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/DomTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       </list>
     </option>
   </component>
@@ -549,7 +539,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="it's working!" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing getPos. Sidewaysing EventWirer" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -579,6 +569,7 @@
     <MESSAGE value="off-by-one bug in randomizer" />
     <MESSAGE value="Pieces now displaying in their initial positions." />
     <MESSAGE value="it's working!" />
+    <MESSAGE value="testing getPos. Sidewaysing EventWirer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -612,13 +603,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="9" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -658,20 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/PositionCalculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="76" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="1" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
@@ -679,16 +649,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/Dom.js">
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/DomTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.42857143">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/DomTest.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/Dom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.42857143">
+        <state line="7" column="2" selection-start="155" selection-end="155" vertical-scroll-proportion="0.3">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/PositionCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="77" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="45" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.78571427">
           <folding />
         </state>
       </provider>

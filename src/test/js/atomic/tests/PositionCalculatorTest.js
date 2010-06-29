@@ -2,9 +2,17 @@ require("../include/include.js");
 
 function test() {
     function check(index, expectedX, expectedY) {
-        var actual =  P.PositionCalculator.fromIndex(600, 900, index);
-        assertEquals(actual.x, expectedX);
-        assertEquals(actual.y, expectedY);
+        (function() {
+            var actual =  P.PositionCalculator.fromIndex(600, 900, index);
+            assertEquals(actual.x, expectedX);
+            assertEquals(actual.y, expectedY);
+        })();
+
+        (function() {
+            var actual =  P.PositionCalculator.fromIndexCss(600, 900, index);
+            assertEquals(actual.left, expectedX + "px");
+            assertEquals(actual.top, expectedY + "px");
+        })();
     }
 
     check(0, 0, 0);
