@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceShufflerTest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js" afterPath="$PROJECT_DIR$/src/main/js/include/PieceShuffler.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -73,19 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitialPositionChooserTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js">
+      <file leaf-file-name="PieceShufflerTest.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceShufflerTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+            <state line="16" column="18" selection-start="527" selection-end="527" vertical-scroll-proportion="0.55714285">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitialPositionChooser.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js">
+      <file leaf-file-name="PieceShuffler.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceShuffler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="12" column="10" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,16 +103,16 @@
       <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="636" selection-end="709" vertical-scroll-proportion="0.0">
+            <state line="9" column="36" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieceMakerTest.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PieceMakerTest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.74285716">
+            <state line="30" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/demo/js/experiment.html" />
-        <option value="$PROJECT_DIR$/src/demo/js/demo.html" />
         <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PiecePlacerTest.js" />
@@ -181,9 +179,11 @@
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
-        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/PieceShuffler.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceShufflerTest.js" />
       </list>
     </option>
   </component>
@@ -556,7 +556,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Real randomizer implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="blank pieces" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -579,6 +579,7 @@
     <MESSAGE value="jquery integration tweaks" />
     <MESSAGE value="Initial implementation of real randomizer - it's still predictable." />
     <MESSAGE value="Real randomizer implemented" />
+    <MESSAGE value="blank pieces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -659,27 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/InitialPositionChooser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="636" selection-end="709" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
@@ -689,7 +669,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.74285716">
+        <state line="30" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceShuffler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceShufflerTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="527" selection-end="527" vertical-scroll-proportion="0.55714285">
           <folding />
         </state>
       </provider>

@@ -17,7 +17,7 @@ function test() {
         return order;
     }
 
-    var actual = P.InitialPositionChooser.choose(squares, blank, predictableRandomizer);
+    var actual = P.PieceShuffler.shuffle(squares, blank, predictableRandomizer);
     var expected = ["s3", "s1", "s2", "s6", "s7", "blank", "s0", "s5", "s4"];
     
     assertArrayEquals(expected, actual);

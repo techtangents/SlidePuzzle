@@ -7,7 +7,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/PieceMaker.js
     // #canhas include/BackgroundPositionCalculator.js
     // #canhas include/jQueryIntegration.js
-    // #canhas include/InitialPositionChooser.js
+    // #canhas include/PieceShuffler.js
     // #canhas include/Randomizer.js
 
     P.create = function(element, image) {
@@ -17,9 +17,9 @@ TechTangents.SlidePuzzle = {};
                     return P.PieceMaker.make(image, x, element.width(), element.height());
                 });
 
-//                var blankElement = P.PieceMaker.blank(element.width(), element.height());
+                var blank = P.PieceMaker.blank(element.width(), element.height());
 
-//                P.InitialPositionChooser.chooser(elements, )
+                var shuffled = P.PieceShuffler.shuffle(elements, blank, P.Randomizer.array);
 
                 _(elements).each(function(x){ element.append(x); });
             }
