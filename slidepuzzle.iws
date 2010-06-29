@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/Randomizer.js" afterPath="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -111,19 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomizerTest.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RandomizerTest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="249" selection-end="249" vertical-scroll-proportion="0.34285715">
+            <state line="10" column="1" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Randomizer.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Randomizer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/Randomizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="15" column="32" selection-start="666" selection-end="666" vertical-scroll-proportion="0.519403">
               <folding />
             </state>
           </provider>
@@ -184,8 +182,8 @@
         <option value="$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/InitialPositionChooserTest.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/Randomizer.js" />
       </list>
     </option>
   </component>
@@ -558,7 +556,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="jquery integration tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial implementation of real randomizer - it's still predictable." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -579,6 +577,7 @@
     <MESSAGE value="positioning" />
     <MESSAGE value="Basic InitialPositionChooser" />
     <MESSAGE value="jquery integration tweaks" />
+    <MESSAGE value="Initial implementation of real randomizer - it's still predictable." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -676,16 +675,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/Randomizer.js">
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="10" column="1" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/RandomizerTest.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/Randomizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="249" selection-end="249" vertical-scroll-proportion="0.34285715">
+        <state line="15" column="32" selection-start="666" selection-end="666" vertical-scroll-proportion="0.519403">
           <folding />
         </state>
       </provider>
