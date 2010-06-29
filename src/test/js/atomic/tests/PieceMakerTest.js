@@ -1,5 +1,11 @@
 require("../include/include.js");
 
+function checkCommon(p, expectedWidth, expectedHeight) {
+    assertEquals("absolute", p.css("position"));
+    assertEquals(expectedWidth, p.width());
+    assertEquals(expectedHeight, p.height());
+}
+
 function testBackgrounds() {
 
     function check(pos, backgroundPos) {
@@ -7,8 +13,7 @@ function testBackgrounds() {
         assertEquals("url(myimg.jpg)", p.css("background-image"));
         assertEquals("no-repeat", p.css("background-repeat"));
         assertEquals(backgroundPos, p.css("background-position"));
-        assertEquals(200, p.width());
-        assertEquals(300, p.height());
+        checkCommon(p, 200, 300);
     }
 
     check(0, "0% 0%");
@@ -26,6 +31,5 @@ function testBackgrounds() {
 
 function testBlank() {
     var p = P.PieceMaker.blank(600, 900);
-    assertEquals(200, p.width());
-    assertEquals(300, p.height());
+    checkCommon(p, 200, 300);
 }

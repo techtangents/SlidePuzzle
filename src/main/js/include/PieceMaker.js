@@ -4,9 +4,9 @@ P.PieceMaker = {
 
         return $("<div />")
             .addClass("puzzlePiece")
-            .css({"float" : "left"})
             .width(totalWidth / 3)
             .height(totalHeight / 3)
+            .css({"position" : "absolute"})
     },
 
     make : function(image, pos, totalWidth, totalHeight) {
@@ -14,7 +14,7 @@ P.PieceMaker = {
             .css({
                 "background-image" : "url(" + image + ")",
                 "background-repeat" : "no-repeat",
-                "background-position" : P.BackgroundPositionCalculator.calculate(pos),
+                "background-position" : P.BackgroundPositionCalculator.calculate(pos)
             });
     },
 

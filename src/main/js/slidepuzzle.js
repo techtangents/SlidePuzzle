@@ -21,7 +21,11 @@ TechTangents.SlidePuzzle = {};
 
                 var shuffled = P.PieceShuffler.shuffle(elements, blank, P.Randomizer.array);
 
-                _(elements).each(function(x){ element.append(x); });
+                // absolutely positioned within a relative element makes the pieces position absolute,
+                //  relative to the parent
+                var relativeDiv = $("<div />").css("position", "relative");
+                element.append(relativeDiv);
+                _(shuffled).each(function(x){ relativeDiv.append(x); });
             }
         }
     }
