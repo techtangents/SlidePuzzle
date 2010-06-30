@@ -1,15 +1,17 @@
 require("../include/include.js");
 
+var testGridInfo = {width : 600, height : 900, rows : 3, cols : 3, numSquares : 9};
+
 function test() {
     function check(index, expectedX, expectedY) {
         (function() {
-            var actual =  P.PositionCalculator.fromIndex(600, 900, index);
+            var actual =  P.PositionCalculator.fromIndex(testGridInfo, index);
             assertEquals(actual.x, expectedX);
             assertEquals(actual.y, expectedY);
         })();
 
         (function() {
-            var actual =  P.PositionCalculator.fromIndexCss(600, 900, index);
+            var actual =  P.PositionCalculator.fromIndexCss(testGridInfo, index);
             assertEquals(actual.left, expectedX + "px");
             assertEquals(actual.top, expectedY + "px");
         })();

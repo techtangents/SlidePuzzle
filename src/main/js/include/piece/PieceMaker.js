@@ -12,7 +12,7 @@ P.PieceMaker = {
             .css({
                 "background-image" : "url(" + image + ")",
                 "background-repeat" : "no-repeat",
-                "background-position" : P.BackgroundPositionCalculator.calculate(pos)
+                "background-position" : P.BackgroundPositionCalculator.calculate(gridInfo, pos)
             });
     },
 

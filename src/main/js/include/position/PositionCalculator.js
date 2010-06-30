@@ -1,20 +1,20 @@
 P.PositionCalculator = {
-    fromIndex : function(totalWidth, totalHeight, index) {
-        var c = P.Coordinate.fromIndex(index);
-        return P.PositionCalculator.fromCoordinate(totalWidth, totalHeight, c);
+    fromIndex : function(gridInfo, index) {
+        var c = P.Coordinate.fromIndex(gridInfo, index);
+        return P.PositionCalculator.fromCoordinate(gridInfo, c);
     },
 
-    fromCoordinate : function(totalWidth, totalHeight, coordinate) {
-        var pieceWidth = totalWidth / 3;
-        var pieceHeight = totalHeight / 3;
+    fromCoordinate : function(gridInfo, coordinate) {
+        var pieceWidth = gridInfo.width / gridInfo.cols;
+        var pieceHeight = gridInfo.height / gridInfo.rows;
         return {
             x : coordinate.col * pieceWidth,
             y : coordinate.row * pieceHeight
         };
     },
 
-    fromIndexCss : function(totalWidth, totalHeight, index) {
-        var c = P.PositionCalculator.fromIndex(totalWidth, totalHeight, index);
+    fromIndexCss : function(gridInfo, index) {
+        var c = P.PositionCalculator.fromIndex(gridInfo, index);
         return {
             left : c.x + "px",
             top : c.y + "px"

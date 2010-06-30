@@ -3,10 +3,10 @@ P.Coordinate = {
         return {row : row, col : col}
     },
     
-    fromIndex : function(index) {
+    fromIndex : function(gridInfo, index) {
         return {
-            row : Math.floor(index / 3),
-            col : index % 3
+            row : Math.floor(index / gridInfo.rows),
+            col : index % gridInfo.cols
         }
     },
 

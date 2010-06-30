@@ -1,8 +1,10 @@
 require("../include/include.js");
 
+var testGridInfo = {width : 600, height : 900, rows : 3, cols : 3, numSquares : 9};
+
 function test() {
     var pieces = _.map(_.range(9), function() { return $("<div />"); });
-    P.PieceInserter.setCoordinates(pieces);
+    P.PieceInserter.setCoordinates(testGridInfo, pieces);
 
     function check(x, expectedRow, expectedCol) {
         var coordinate = pieces[x].data("coordinate");
