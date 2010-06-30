@@ -1,5 +1,7 @@
 require("../include/include.js");
 
+var testGridInfo = {width : 600, height : 900, rows : 3, cols : 3, numSquares : 9};
+
 function checkCommon(p, expectedWidth, expectedHeight) {
     assertEquals("absolute", p.css("position"));
     assertEquals(expectedWidth, p.width());
@@ -9,7 +11,7 @@ function checkCommon(p, expectedWidth, expectedHeight) {
 function testBackgrounds() {
 
     function check(pos, backgroundPos) {
-        var p = P.PieceMaker.make("myimg.jpg", pos, 600, 900);
+        var p = P.PieceMaker.make(testGridInfo, "myimg.jpg", pos);
         assertEquals("url(myimg.jpg)", p.css("background-image"));
         assertEquals("no-repeat", p.css("background-repeat"));
         assertEquals(backgroundPos, p.css("background-position"));
@@ -30,6 +32,6 @@ function testBackgrounds() {
 }
 
 function testBlank() {
-    var p = P.PieceMaker.blank({width : 600, height : 900});
+    var p = P.PieceMaker.blank(testGridInfo);
     checkCommon(p, 200, 300);
 }

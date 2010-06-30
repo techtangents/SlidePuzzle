@@ -1,16 +1,14 @@
 P.PieceMaker = {
-    basic : function(totalWidth, totalHeight) {
-        // FIX the float:left will probably change when we add animation
-
+    blank : function(gridInfo) {
         return $("<div />")
             .addClass("puzzlePiece")
-            .width(totalWidth / 3)
-            .height(totalHeight / 3)
+            .width(gridInfo.width / gridInfo.cols)
+            .height(gridInfo.height / gridInfo.rows)
             .css({"position" : "absolute"})
     },
 
-    make : function(image, pos, totalWidth, totalHeight) {
-        return P.PieceMaker.basic(totalWidth, totalHeight)
+    make : function(gridInfo, image, pos) {
+        return P.PieceMaker.blank(gridInfo)
             .css({
                 "background-image" : "url(" + image + ")",
                 "background-repeat" : "no-repeat",
@@ -18,14 +16,10 @@ P.PieceMaker = {
             });
     },
 
-    blank : function(gridInfo) {
-        return P.PieceMaker.basic(gridInfo.width, gridInfo.height);
-    },
-
     array : function(gridInfo, image) {
         var numSquares = gridInfo.numSquares;
         return _.map(_.range(numSquares), function(x) {
-            return P.PieceMaker.make(image, x, gridInfo.width, gridInfo.height);
+            return P.PieceMaker.make(gridInfo, image, x);
         });
     }
 };
