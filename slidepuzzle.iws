@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" afterPath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" afterPath="$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -64,19 +66,28 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PieceInserterTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js">
+      <file leaf-file-name="EventWirer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="72" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+            <state line="7" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventWirer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
+      <file leaf-file-name="Arrays.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Arrays.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceMover.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.80508476">
               <folding />
             </state>
           </provider>
@@ -91,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slidepuzzle.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="352" selection-end="352" vertical-scroll-proportion="0.26881722">
+            <state line="33" column="38" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,19 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieceMaker.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="65" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Coordinate.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="2" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceInserter.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/MoveValidatorTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Operators.js" />
@@ -179,11 +180,12 @@
         <option value="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/shake.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Flag.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Switch.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Animator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js" />
       </list>
     </option>
   </component>
@@ -393,6 +395,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moves" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alien" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -427,6 +489,7 @@
       <recent name="$PROJECT_DIR$/src/demo/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/js/include/moves" />
       <recent name="$PROJECT_DIR$/src/main/js/include/position" />
       <recent name="$PROJECT_DIR$/src/main/js/include/alien" />
       <recent name="$PROJECT_DIR$/src/test/js/atomic/tests" />
@@ -547,9 +610,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24776605" sideWeight="0.6628099" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29894394" sideWeight="0.6628099" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32561985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32561985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -570,7 +633,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="alien" />
+    <option name="LAST_COMMIT_MESSAGE" value="package juggling" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -583,7 +646,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="backgrounds" />
     <MESSAGE value="background-repeat" />
     <MESSAGE value="background positions" />
     <MESSAGE value="positioning" />
@@ -608,6 +670,7 @@
     <MESSAGE value="Move validator wired in and some animation refactoring." />
     <MESSAGE value="Split animator out." />
     <MESSAGE value="alien" />
+    <MESSAGE value="package juggling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -617,19 +680,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/MoveValidator.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="2" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5508475">
           <folding />
@@ -676,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/Animator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="1" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
@@ -693,13 +737,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Randomizer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -718,9 +755,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="352" selection-end="352" vertical-scroll-proportion="0.26881722">
+        <state line="33" column="38" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.80508476">
           <folding />
         </state>
       </provider>

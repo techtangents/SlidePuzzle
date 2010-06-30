@@ -7,8 +7,11 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/alien/Randomizer.js
     // #canhas include/alien/Switch.js
 
-    // #canhas include/BackgroundPositionCalculator.js
-    // #canhas include/PositionCalculator.js    
+    // #canhas include/moves/MoveValidator.js
+    // #canhas include/moves/PieceMover.js
+
+    // #canhas include/position/BackgroundPositionCalculator.js
+    // #canhas include/position/PositionCalculator.js
 
     // #canhas include/Animator.js
     // #canhas include/Coordinate.js
@@ -18,7 +21,6 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/EventWirer.js
     // #canhas include/GridInfoMaker.js
     // #canhas include/PieceInserter.js
-    // #canhas include/MoveValidator.js
 
     P.create = function(element, image) {
         return {
@@ -42,7 +44,7 @@ TechTangents.SlidePuzzle = {};
 
                 P.PieceInserter.insert(gridInfo, pieceContainer, shuffledPieces);
 
-                P.EventWirer.wire(pieceContainer, picturePieces, blankPiece);
+                P.EventWirer.wire(picturePieces, blankPiece);
             }
         }
     };
