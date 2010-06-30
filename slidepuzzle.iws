@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" afterPath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" afterPath="$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/Coordinate.js" afterPath="$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/PieceShuffler.js" afterPath="$PROJECT_DIR$/src/main/js/include/piece/PieceShuffler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/GridInfoMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/grid/GridInfoMaker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/jQueryIntegration.js" afterPath="$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/Animator.js" afterPath="$PROJECT_DIR$/src/main/js/include/moves/Animator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" afterPath="$PROJECT_DIR$/src/main/js/include/moves/EventWirer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/PieceInserter.js" afterPath="$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js" afterPath="$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/PieceMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -66,73 +75,73 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EventWirer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
+      <file leaf-file-name="jQueryIntegration.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Arrays.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieceMover.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.80508476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Dom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="38" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Animator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/Animator.js">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/Animator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="1" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
+            <state line="34" column="0" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Randomizer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Randomizer.js">
+      <file leaf-file-name="EventWirer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/EventWirer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PositionCalculator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js">
+      <file leaf-file-name="MoveValidator.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceMover.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceInserter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceMaker.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceShuffler.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceShuffler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,16 +150,16 @@
       <file leaf-file-name="BackgroundPositionCalculator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coordinate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
+      <file leaf-file-name="PositionCalculator.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="736" selection-end="736" vertical-scroll-proportion="0.7761194">
               <folding />
             </state>
           </provider>
@@ -170,22 +179,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/js/include/PieceInserter.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/MoveValidatorTest.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Operators.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/blankCoordinate" />
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Coordinate.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/shake.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Flag.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Switch.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Animator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
-        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/setup/setup.js" />
+        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/grid/GridInfoMaker.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/moves/Animator.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/moves/EventWirer.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceShuffler.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" />
       </list>
     </option>
   </component>
@@ -350,32 +359,6 @@
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slidepuzzle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slidepuzzle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="position" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -407,7 +390,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="piece" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="moves" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initialize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,10 +593,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/js/include/moves" />
+      <recent name="$PROJECT_DIR$/src/main/js/include/integration" />
+      <recent name="$PROJECT_DIR$/src/main/js/include/grid" />
+      <recent name="$PROJECT_DIR$/src/main/js/include/piece" />
       <recent name="$PROJECT_DIR$/src/main/js/include/position" />
-      <recent name="$PROJECT_DIR$/src/main/js/include/alien" />
-      <recent name="$PROJECT_DIR$/src/test/js/atomic/tests" />
-      <recent name="$PROJECT_DIR$/src/demo/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -680,56 +783,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5508475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="313" selection-end="313" vertical-scroll-proportion="0.2542373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceInserter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="585" selection-end="585" vertical-scroll-proportion="0.59322035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="72" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="65" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/Animator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -741,51 +797,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Switch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+        <state line="5" column="47" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Arrays.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/grid/GridInfoMaker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+        <state line="6" column="47" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="38" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/Animator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/EventWirer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.80508476">
+        <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceShuffler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="736" selection-end="736" vertical-scroll-proportion="0.7761194">
           <folding />
         </state>
       </provider>

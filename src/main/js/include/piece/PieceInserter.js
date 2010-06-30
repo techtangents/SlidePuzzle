@@ -15,4 +15,4 @@ P.PieceInserter = {
             x.data("coordinate", c);
         });
     }
-}
+};

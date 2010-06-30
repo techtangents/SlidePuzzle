@@ -31,4 +31,4 @@ P.Animator = {
         _.each(_.range(2), shakeOnce);
         element.animate({left:left}, 1, callback);
     }
-}
+};
