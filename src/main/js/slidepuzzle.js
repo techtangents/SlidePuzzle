@@ -3,6 +3,7 @@ TechTangents.SlidePuzzle = {};
 
 (function(P, $) {
 
+    // #canhas include/Animator.js
     // #canhas include/Coordinate.js
     // #canhas include/Arrays.js
     // #canhas include/PieceMaker.js
@@ -16,6 +17,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/GridInfoMaker.js
     // #canhas include/PieceInserter.js
     // #canhas include/MoveValidator.js
+    // #canhas include/Switch.js
 
     P.create = function(element, image) {
         return {

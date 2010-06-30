@@ -2,35 +2,18 @@ P.EventWirer = {
 
     wire : function(pieceContainer, picturePieces, blankPiece) {
 
-        // FIX sideways?
-        function startSlide(x, blankPiece, callback) {
-            var blankPos = P.Dom.getPos(blankPiece);
-            var piecePos = P.Dom.getPos(x);
-            blankPiece.detach();
+        var animation = P.Switch.create(true); // prevent simultaneous moves
 
-            x.animate(blankPos, {
-                duration : 'fast',
-                complete : function() {
-                    blankPiece.css(piecePos);
-                    pieceContainer.append(blankPiece);
-                    callback();
-                }
-            });
-        }
-
-        var animationEnabled = true; // prevent simultaneous moves
         function clickHandler() {
-            if (!animationEnabled) return;
+            if (!animation.isOn()) return;
+            animation.turnOff();
 
             var piece = $(this);
             if (P.MoveValidator.piece(piece, blankPiece)) {
-                animationEnabled = false;
-                startSlide(piece, blankPiece, function() {
-                    P.Coordinate.swap(piece, blankPiece);
-                    animationEnabled = true;
-                });
+                P.Coordinate.swap(piece, blankPiece);
+                P.Animator.slide(piece, blankPiece, animation.turnOn);
             } else {
-                // shake?
+                P.Animator.shake(piece, animation.turnOn);
             }
         }
 
