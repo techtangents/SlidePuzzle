@@ -1,13 +1,13 @@
 P.widgetDef = {
     options : {
-        image : ""
+        image : "",
+        rows : 3,
+        cols : 3
     },
 
     _create : function() {
-        var element = this.element;
-        var image = this.options.image;
-        var instance = P.create(element, image);
-        instance.init();
+        var options = this.options;
+        P.create(this.element, options.image, options.rows, options.cols);
     }
 };
 $.widget("ui.slidePuzzle", P.widgetDef);

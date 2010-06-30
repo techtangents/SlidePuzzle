@@ -26,13 +26,6 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/position/BackgroundPositionCalculator.js
     // #canhas include/position/PositionCalculator.js
 
-
-    P.create = function(element, image) {
-        return {
-            init : function() {
-                P.Initializer.initialize(element, image);
-            }
-        }
-    };
+    P.create = P.Initializer.initialize;
 
 })(TechTangents.SlidePuzzle, jQuery);

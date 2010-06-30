@@ -1,12 +1,12 @@
 P.Initializer = {
-    initialize : function(element, image) {
+    initialize : function(element, image, rows, cols) {
         var totalWidth = element.width();
         var totalHeight = element.height();
 
         // FIX push the rows/cols throughout the system
         // FIX pass them in from widget options
 
-        var gridInfo = P.GridInfoMaker.make(3, 3, element);
+        var gridInfo = P.GridInfoMaker.make(rows, cols, element);
 
         var picturePieces = P.PieceMaker.array(gridInfo, image);
         var blankPiece = P.PieceMaker.blank(gridInfo);

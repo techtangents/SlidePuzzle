@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js" afterPath="$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js" afterPath="$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/js/demo.html" afterPath="$PROJECT_DIR$/src/demo/js/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js" afterPath="$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js" afterPath="$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" afterPath="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -87,28 +86,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PositionCalculatorTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="35" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieceInserterTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="49" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="28" column="39" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basicTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="39" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/demo/js/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.5740181">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coordinate.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="39" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQueryIntegration.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="8" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,19 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coordinate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackgroundPositionCalculator.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BackgroundPositionCalculator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.53097343">
+            <state line="12" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,16 +152,7 @@
       <file leaf-file-name="Initializer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoveValidator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+            <state line="8" column="54" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,22 +172,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/grid/GridInfoMaker.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/moves/Animator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/moves/EventWirer.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceShuffler.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceMaker.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" />
+        <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js" />
+        <option value="$PROJECT_DIR$/src/demo/js/demo.html" />
       </list>
     </option>
   </component>
@@ -574,6 +573,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.smartKeys" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -777,27 +777,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/Animator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/EventWirer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/PieceMover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/piece/PieceShuffler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
@@ -819,20 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/MoveValidator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
@@ -843,13 +808,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="35" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -884,7 +842,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.53097343">
+        <state line="12" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="54" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/integration/jQueryIntegration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="39" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/basicTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/js/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.5740181">
           <folding />
         </state>
       </provider>

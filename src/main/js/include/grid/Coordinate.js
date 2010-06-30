@@ -5,7 +5,7 @@ P.Coordinate = {
     
     fromIndex : function(gridInfo, index) {
         return {
-            row : Math.floor(index / gridInfo.rows),
+            row : Math.floor(index / gridInfo.cols),
             col : index % gridInfo.cols
         }
     },

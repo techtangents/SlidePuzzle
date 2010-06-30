@@ -8,16 +8,33 @@
     <script type="text/javascript">
 
         $(document).ready(function() {
-            $("#puzzle").slidePuzzle({
-                image : "cat.jpg"
+            $("#start").click(function() {
+                var rows = $("#rows").val();
+                var cols = $("#cols").val();
+
+                var board = $('<div style="width:425px;height:360px;border:1px solid black;"></div>');
+                $("#puzzleContainer")
+                    .empty()
+                    .append(board);
+
+                board.slidePuzzle({
+                    image : "cat.jpg",
+                    rows : Number(rows),
+                    cols : Number(cols)
+                });
+                return false;
             });
-        });        
+        });
     </script>
 
 </head>
 <body>
 
-<div id="puzzle" style="width:425px;height:360px;border:1px solid black;"></div>
+Rows: <input type="text" value="3" id="rows" /><br />
+Cols: <input type="text" value="3" id="cols" /><br />
+<button type="button" id="start">Start!</button><br />
+
+<div id="puzzleContainer"></div>
 
 </body>
 </html>

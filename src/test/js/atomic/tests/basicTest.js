@@ -7,8 +7,7 @@ function testBasics() {
 
 function init() {
     var element = $("<div />");
-    var p = P.create(element, "myimg.jpg");
-    p.init();
+    P.create(element, "myimg.jpg", 3, 3);
     return {
         pieces :element.find("div.puzzlePiece")
     }
