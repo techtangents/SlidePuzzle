@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" afterPath="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/Coordinate.js" afterPath="$PROJECT_DIR$/src/main/js/include/Coordinate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" afterPath="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -86,7 +87,7 @@
       <file leaf-file-name="MoveValidatorTest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+            <state line="6" column="47" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +96,16 @@
       <file leaf-file-name="MoveValidator.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/MoveValidator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="86" selection-start="336" selection-end="336" vertical-scroll-proportion="0.21428572">
+            <state line="13" column="2" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5508475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventWirer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="4" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,7 +141,7 @@
       <file leaf-file-name="Coordinate.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+            <state line="26" column="2" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/GridInfoMaker.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/InitialPositioner.js" />
@@ -170,11 +178,13 @@
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceInserter.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/Coordinate.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/MoveValidatorTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Operators.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/blankCoordinate" />
+        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/Coordinate.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/MoveValidator.js" />
       </list>
     </option>
@@ -494,7 +504,7 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="750" extended-state="0" />
+    <frame x="-4" y="25" width="1288" height="753" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,9 +517,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938676" sideWeight="0.6594684" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24776605" sideWeight="0.6628099" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32561985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,7 +540,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tagging pieces with coordinates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move validator." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -566,6 +576,7 @@
     <MESSAGE value="Sidewaysed PieceInserter." />
     <MESSAGE value="Pushing through gridinfo." />
     <MESSAGE value="Tagging pieces with coordinates." />
+    <MESSAGE value="Move validator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -575,11 +586,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scratch/test/js/atomic/tests/PieceMakerTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/GridInfoMaker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="9" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" />
@@ -617,6 +623,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="72" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
@@ -631,37 +651,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+        <state line="6" column="47" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/Coordinate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+        <state line="26" column="2" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/EventWirer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/MoveValidatorTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+        <state line="30" column="4" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/MoveValidator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="86" selection-start="336" selection-end="336" vertical-scroll-proportion="0.21428572">
+        <state line="13" column="2" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5508475">
           <folding />
         </state>
       </provider>

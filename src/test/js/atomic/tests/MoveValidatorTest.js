@@ -4,7 +4,7 @@ function test() {
     function check(expected, pieceRow, pieceCol, blankRow, blankCol) {
         var pieceCoordinate = P.Coordinate.create(pieceRow, pieceCol);
         var blankCoordinate = P.Coordinate.create(blankRow, blankCol);
-        var actual = P.MoveValidator.isValid(pieceCoordinate, blankCoordinate);
+        var actual = P.MoveValidator.coordinate(pieceCoordinate, blankCoordinate);
         assertEquals(actual, expected);
     }
 
