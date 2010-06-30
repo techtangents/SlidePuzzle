@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/Switch.js" afterPath="$PROJECT_DIR$/src/main/js/include/alien/Switch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/Arrays.js" afterPath="$PROJECT_DIR$/src/main/js/include/alien/Arrays.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/Dom.js" afterPath="$PROJECT_DIR$/src/main/js/include/alien/Dom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/PositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" afterPath="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/Randomizer.js" afterPath="$PROJECT_DIR$/src/main/js/include/alien/Randomizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" afterPath="$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -96,7 +94,7 @@
       <file leaf-file-name="slidepuzzle.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="287" selection-end="287" vertical-scroll-proportion="0.24193548">
+            <state line="10" column="44" selection-start="352" selection-end="352" vertical-scroll-proportion="0.26881722">
               <folding />
             </state>
           </provider>
@@ -121,9 +119,18 @@
         </entry>
       </file>
       <file leaf-file-name="PositionCalculator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/include/PositionCalculator.js">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackgroundPositionCalculator.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,15 +154,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieceMakerTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -170,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/PieceInserterTest.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/PieceInserter.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/MoveValidatorTest.js" />
@@ -185,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/main/js/include/EventWirer.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Switch.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/Animator.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
       </list>
     </option>
@@ -377,7 +375,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="alien" />
+              <option name="myItemId" value="position" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,6 +427,7 @@
       <recent name="$PROJECT_DIR$/src/demo/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/js/include/position" />
       <recent name="$PROJECT_DIR$/src/main/js/include/alien" />
       <recent name="$PROJECT_DIR$/src/test/js/atomic/tests" />
       <recent name="$PROJECT_DIR$/src/demo/js" />
@@ -571,7 +570,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split animator out." />
+    <option name="LAST_COMMIT_MESSAGE" value="alien" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -584,7 +583,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="stuff" />
     <MESSAGE value="backgrounds" />
     <MESSAGE value="background-repeat" />
     <MESSAGE value="background positions" />
@@ -609,6 +607,7 @@
     <MESSAGE value="Move validator." />
     <MESSAGE value="Move validator wired in and some animation refactoring." />
     <MESSAGE value="Split animator out." />
+    <MESSAGE value="alien" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -621,13 +620,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PositionCalculatorTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="66" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/BackgroundPositionCalculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="113" selection-end="113" vertical-scroll-proportion="0.10810811">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/PieceMakerTest.js">
@@ -668,13 +660,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/js/include/PieceMaker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="65" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/include/PositionCalculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/alien/Switch.js">
@@ -719,9 +704,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/position/PositionCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/include/position/BackgroundPositionCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="287" selection-end="287" vertical-scroll-proportion="0.24193548">
+        <state line="10" column="44" selection-start="352" selection-end="352" vertical-scroll-proportion="0.26881722">
           <folding />
         </state>
       </provider>

@@ -7,13 +7,14 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/alien/Randomizer.js
     // #canhas include/alien/Switch.js
 
+    // #canhas include/BackgroundPositionCalculator.js
+    // #canhas include/PositionCalculator.js    
+
     // #canhas include/Animator.js
     // #canhas include/Coordinate.js
     // #canhas include/PieceMaker.js
-    // #canhas include/BackgroundPositionCalculator.js
     // #canhas include/jQueryIntegration.js
     // #canhas include/PieceShuffler.js
-    // #canhas include/PositionCalculator.js
     // #canhas include/EventWirer.js
     // #canhas include/GridInfoMaker.js
     // #canhas include/PieceInserter.js
