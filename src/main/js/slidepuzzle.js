@@ -15,6 +15,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/Dom.js
     // #canhas include/GridInfoMaker.js
     // #canhas include/PieceInserter.js
+    // #canhas include/MoveValidator.js
 
     P.create = function(element, image) {
         return {
