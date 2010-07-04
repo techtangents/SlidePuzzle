@@ -17,3 +17,33 @@ function testIsPieceCorrect() {
     check(false, 0, 0, 1, 1);
     check(false, 3, 4, 3, 5);
 }
+
+function testAllPiecesCorrect() {
+    var correctPositions = [
+        {row: 0, col: 0}, {row: 0, col: 1}, {row: 0, col: 2},
+        {row: 1, col: 0}, {row: 1, col: 1}, {row: 1, col: 2},
+        {row: 2, col: 0}, {row: 2, col: 1}, {row: 2, col: 2}
+    ];
+
+    function check(expected, actualPositions) {
+        var pieces = _.map(actualPositions, function(x, i) {
+            var piece = $("<div />");
+            P.Coordinate.set(piece, x);
+            P.Coordinate.setCorrect(piece, correctPositions[i]);
+            return piece;
+        });
+        assertEquals(expected, P.Referee.allPiecesCorrect(pieces));    
+    }
+
+    check(true, [
+        {row: 0, col: 0}, {row: 0, col: 1}, {row: 0, col: 2},
+        {row: 1, col: 0}, {row: 1, col: 1}, {row: 1, col: 2},
+        {row: 2, col: 0}, {row: 2, col: 1}
+    ]);
+
+    check(false, [
+        {row: 0, col: 0}, {row: 0, col: 1}, {row: 0, col: 2},
+        {row: 1, col: 0}, {row: 1, col: 2}, {row: 1, col: 1},
+        {row: 2, col: 0}, {row: 2, col: 1}
+    ]);
+}

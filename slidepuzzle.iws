@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ca923063-758c-4e74-9ad8-700443461cfb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/js/atomic/tests/RefereeTest.js" afterPath="$PROJECT_DIR$/src/test/js/atomic/tests/RefereeTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slidepuzzle.iws" afterPath="$PROJECT_DIR$/slidepuzzle.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/include/moves/Referee.js" afterPath="$PROJECT_DIR$/src/main/js/include/moves/Referee.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="slidepuzzle.iws" />
@@ -71,28 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RefereeTest.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RefereeTest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/RefereeTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.08522727">
+            <state line="31" column="43" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Referee.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Referee.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/Referee.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="53" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slidepuzzle.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+            <state line="8" column="28" selection-start="286" selection-end="286" vertical-scroll-proportion="0.3409091">
               <folding />
             </state>
           </provider>
@@ -178,10 +171,10 @@
         <option value="$PROJECT_DIR$/src/main/js/include/alien/Arrays.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/initialize/Initializer.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/piece/PieceInserter.js" />
-        <option value="$PROJECT_DIR$/src/main/js/include/moves/Referee.js" />
         <option value="$PROJECT_DIR$/src/main/js/slidepuzzle.js" />
         <option value="$PROJECT_DIR$/src/main/js/include/grid/Coordinate.js" />
         <option value="$PROJECT_DIR$/src/test/js/atomic/tests/RefereeTest.js" />
+        <option value="$PROJECT_DIR$/src/main/js/include/moves/Referee.js" />
       </list>
     </option>
   </component>
@@ -725,7 +718,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="start of move referee, which checks if you've won or not." />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -738,7 +731,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="blank pieces" />
     <MESSAGE value="some renames and wiring components" />
     <MESSAGE value="static -&gt; relative -&gt; absolute = a recipe for happiness in absolute positioning!" />
     <MESSAGE value="PositionCalculator" />
@@ -763,6 +755,7 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="demo stuff" />
     <MESSAGE value="start of move referee, which checks if you've won or not." />
+    <MESSAGE value="rename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -843,23 +836,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/RefereeTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/slidepuzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="20" column="28" selection-start="649" selection-end="649" vertical-scroll-proportion="0.7244318">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/include/moves/Referee.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/js/atomic/tests/RefereeTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.08522727">
+        <state line="8" column="28" selection-start="286" selection-end="286" vertical-scroll-proportion="0.3409091">
           <folding />
         </state>
       </provider>
