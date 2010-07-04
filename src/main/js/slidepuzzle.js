@@ -18,6 +18,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/moves/EventWirer.js
     // #canhas include/moves/MoveValidator.js
     // #canhas include/moves/PieceMover.js
+    // #canhas include/moves/Referee.js
 
     // #canhas include/piece/PieceShuffler.js
     // #canhas include/piece/PieceMaker.js
