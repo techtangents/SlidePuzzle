@@ -13,11 +13,15 @@ P.Initializer = {
     },
 
     addPieces : function(gridInfo, pieceContainer, image) {
-        var picturePieces = P.PieceMaker.array(gridInfo, image);
+        var allPicturePieces = P.PieceMaker.array(gridInfo, image);
+
+        var chosenPicturePieces = P.PieceChooser.choosePicturePieces(allPicturePieces);
         var blankPiece = P.PieceMaker.blank(gridInfo);
-        var shuffledPieces = P.PieceShuffler.shuffle(picturePieces, blankPiece, P.Randomizer.array);
+        var allPieces = P.PieceChooser.choose(chosenPicturePieces, blankPiece);
+
+        var shuffledPieces = P.PieceShuffler.shuffle(allPieces, P.Randomizer.array);
 
         P.PieceInserter.insert(gridInfo, pieceContainer, shuffledPieces);
-        P.EventWirer.wire(picturePieces, blankPiece);
+        P.EventWirer.wire(chosenPicturePieces, blankPiece);
     }
 };

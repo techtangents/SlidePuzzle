@@ -20,6 +20,7 @@ TechTangents.SlidePuzzle = {};
     // #canhas include/moves/PieceMover.js
     // #canhas include/moves/Referee.js
 
+    // #canhas include/piece/PieceChooser.js
     // #canhas include/piece/PieceShuffler.js
     // #canhas include/piece/PieceMaker.js
     // #canhas include/piece/PieceInserter.js

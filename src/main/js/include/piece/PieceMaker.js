@@ -8,12 +8,15 @@ P.PieceMaker = {
     },
 
     make : function(gridInfo, image, pos) {
-        return P.PieceMaker.blank(gridInfo)
-            .css({
-                "background-image" : "url(" + image + ")",
-                "background-repeat" : "no-repeat",
-                "background-position" : P.BackgroundPositionCalculator.calculate(gridInfo, pos)
-            });
+        var c = P.Coordinate.fromIndex(gridInfo, pos);
+        var p = P.PieceMaker.blank(gridInfo);
+        p.css({
+            "background-image" : "url(" + image + ")",
+            "background-repeat" : "no-repeat",
+            "background-position" : P.BackgroundPositionCalculator.calculate(gridInfo, pos)
+        });
+        P.Coordinate.setCorrect(p, c);
+        return p;
     },
 
     array : function(gridInfo, image) {

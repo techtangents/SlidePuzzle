@@ -3,8 +3,7 @@ require("../include/include.js");
 function test() {
 
     // using strings in place of pieces - doesn't matter in this instance
-    var squares = ["s0", "s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8"];
-    var blank = "blank";
+    var squares = ["s0", "s1", "s2", "s3", "s4", "s5", "s6", "s7", "blank"];
 
     // board consists of pieces 0-7 and a blank square. piece 8 is replaced with the blank square.
     var order = [3, 1, 2,
@@ -17,7 +16,7 @@ function test() {
         return order;
     }
 
-    var actual = P.PieceShuffler.shuffle(squares, blank, predictableRandomizer);
+    var actual = P.PieceShuffler.shuffle(squares, predictableRandomizer);
     var expected = ["s3", "s1", "s2", "s6", "s7", "blank", "s0", "s5", "s4"];
     
     assertArrayEquals(expected, actual);
