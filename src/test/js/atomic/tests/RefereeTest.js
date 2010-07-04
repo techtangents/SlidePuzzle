@@ -1,6 +1,6 @@
 require("../include/include.js");
 
-function test() {
+function testIsPieceCorrect() {
     function check(expected, actualRow, actualCol, correctRow, correctCol) {
         var piece = $("<div />");
         piece.data("coordinate", P.Coordinate.create(actualRow, actualCol));
